@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background: #403a3e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #8d33b4,
+      #5b4152
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #8d33b4,
+      #5b4152
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    background-repeat: no-repeat;
+  }
+  
+  .outer {
+    width: 450px;
+    height: 70px;
+    padding-top: 15px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px grey;
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+    color: darkslategrey;
+    border-radius: 10px;
+    font-weight: bold;
+    animation: date 3s  infinite ease-in-out;
+  }
+  
+  @keyframes date {
+    
+    0% {
+      background: radial-gradient(
+        circle,
+        rgb(101, 105, 126) 0%,
+        rgb(120, 94, 145) 100%
+      );
+    }
+  }
+  
+  .btn1 {
+    padding: 1px 15px;
+    box-shadow: 1px 1px 10px grey;
+    background-color: lightblue;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: grey;
+    font-size: 6rem;
+    font-weight: bold;
+    animation: date 3s infinite ease-in-out;
+    
+  }
